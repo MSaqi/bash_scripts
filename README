@@ -1,0 +1,24 @@
+Make the script executable with 
+chmod +x script_name.sh
+
+"🚀 **Automated Repository Management Script** 🚀"
+    "This script automates the process of managing repositories. It can:"
+  "  - Remove existing cloned repositories"
+  "  - Clone fresh copies from GitLab"
+  "  - Checkout a specific branch and run 'make gen'"
+    "Usage: $0 [OPTIONS]"
+    "Options:"
+  "  -r, --remove      🔴 Remove existing repositories"
+  "  -c, --clone       🌍 Clone repositories from GitLab"
+  "  -g, --generate    ⚙️  Checkout branch and run 'make gen' in each repository"
+  "  -e, --extra       ⚙️  Run 'make gen.base' only"
+  "  -a, --all         🚀 Run all steps (remove → clone → checkout & build)"
+  "  -h, --help        📖 Show this help message"
+    "Examples:"
+  "  ./common_clone_fix.sh --remove          # Remove old repositories"
+  "  ./common_clone_fix.sh --clone           # Clone repositories only"
+  "  ./common_clone_fix.sh --generate        # Checkout branch and run 'make gen'"
+  "  ./common_clone_fix.sh --extra           # Run 'make gen.base' only"
+  "  ./common_clone_fix.sh --all             # Run everything"
+    "✨ Created for efficient repo management!"
+
